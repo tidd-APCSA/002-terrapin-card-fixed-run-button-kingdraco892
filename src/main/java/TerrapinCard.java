@@ -29,10 +29,10 @@ public void payGourmet(){
     if(amount < 0){
     balance = balance;
    
-    }else if( balance + amount >= 150){
+    }else if( (balance + amount) > 150){
       balance = 150;
     }else{
-      balance = balance + amount;
+      balance += amount;
     }
    
   }
