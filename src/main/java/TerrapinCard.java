@@ -5,7 +5,9 @@ private double balance;
 public TerrapinCard(double balanceAtStart){
   balance = balanceAtStart;
 }
-
+public String toString(){
+    return "This card has " + balance + " dollars";
+  }
 
 public void payEconomical(){
   if(balance >= 2.50){
@@ -37,7 +39,5 @@ public void payGourmet(){
     return balance; 
   }
 
-  public String toString(){
-    return "This card has " + balance + " dollars";
-  }
+  
 }
