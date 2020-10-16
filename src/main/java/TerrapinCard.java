@@ -10,7 +10,7 @@ public String toString(){
   }
 
 public void payEconomical(){
-  if(balance >= 2.50){
+  if(balance > 2.50){
   balance -= 2.50;
   }
   
@@ -18,7 +18,7 @@ public void payEconomical(){
 
 
 public void payGourmet(){
-  if(balance >= 4.00){
+  if(balance > 4.00){
   balance -= 4.00;
   }
 }
