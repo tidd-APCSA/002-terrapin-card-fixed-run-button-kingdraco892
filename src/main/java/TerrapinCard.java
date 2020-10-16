@@ -32,7 +32,7 @@ public void payGourmet(){
     }else{
       balance = balance;
     }
-    if( balance >= 150){
+    if( balance > 150){
       balance = 150.00;
     }
   }
