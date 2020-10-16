@@ -22,6 +22,9 @@ public void payGourmet(){
       balance = 150.00;
     }
   }
+  public void getBalance(){
+    return balance; 
+  }
 
 public String toString(){
   return "This card has " + balance +" dollars";
