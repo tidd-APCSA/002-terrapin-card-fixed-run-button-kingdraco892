@@ -26,15 +26,15 @@ public void payGourmet(){
 
   public void loadMoney(double amount){
    
-    if(amount > 0){
-    balance = balance + amount;
+    if(amount < 0){
+    balance = balance;
    
+    }else if( balance + amount > 150){
+      balance = 150;
     }else{
-      balance = balance;
+      balance += amount;
     }
-    if( balance > 150){
-      balance = 150.00;
-    }
+   
   }
 
   public double getBalance(){
